@@ -54,7 +54,7 @@ const Name = () => {
               and research students.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Elevate Cosmopolitan-The Multi-Ethnic Fest's festivity to new
+              - Elevate Cosmopolitan-The Multi-Ethnic Fest&apos;s festivity to new
               heights.
             </p>
             <p className="text-lg text-gray-300 ">

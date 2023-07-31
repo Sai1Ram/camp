@@ -42,7 +42,7 @@ const Name = () => {
           <div className="flex flex-col items-start justify-start space-y-2">
             <p className="text-lg text-gray-300 ">
               {" "}
-              - To address the club's concerns and closely monitor dormant
+              - To address the club&apos;s concerns and closely monitor dormant
               clubs.
             </p>
             <p className="text-lg text-gray-300 ">

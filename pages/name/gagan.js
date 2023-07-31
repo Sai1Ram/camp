@@ -55,7 +55,7 @@ const Name = () => {
             </p>
             <p className="text-lg text-gray-300 ">
               - Plan a grander Cosmopolitan-The Multi-Ethnic Fest celebration to
-              enhance NIT Rourkela's cultural diversity.
+              enhance NIT Rourkela&apos;s cultural diversity.
             </p>
             <p className="text-lg text-gray-300 ">
               - Revive ROOTS (Creative Confluence of NITR) after a considerable

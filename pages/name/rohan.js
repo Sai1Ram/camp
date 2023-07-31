@@ -43,7 +43,7 @@ const Name = () => {
             <p className="text-lg text-gray-300 ">
               {" "}
               - I will strive to foster collaboration among all the clubs within
-              the Film and Music Society, enriching NITR's multicultural
+              the Film and Music Society, enriching NITR&apos;s multicultural
               environment through collective efforts.
             </p>
             <p className="text-lg text-gray-300 ">
