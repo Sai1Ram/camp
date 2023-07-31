@@ -57,7 +57,7 @@ const Name = () => {
               Clubs.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Establishing a Platform for Clubs' Concerns and Feedback.
+              - Establishing a Platform for Club&apos;s Concerns and Feedback.
             </p>
             <p className="text-lg text-gray-300 ">
               - Ensuring Seamless Communication between SAC and Clubs.
