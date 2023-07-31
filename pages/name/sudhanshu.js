@@ -51,19 +51,24 @@ const Name = () => {
               Cosmopolitan Festival.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Host diverse events year-round, showcasing cultural richness in music, dance, and art forms.
+              - Host diverse events year-round, showcasing cultural richness in
+              music, dance, and art forms.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Facilitate smooth practice sessions for clubs, ensuring prompt access to music and dance rooms.
+              - Facilitate smooth practice sessions for clubs, ensuring prompt
+              access to music and dance rooms.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Provide necessary amenities to support the needs of all members during rehearsals.
+              - Provide necessary amenities to support the needs of all members
+              during rehearsals.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Prioritize bridging the gap between students and SAC Authorities.
+              - Prioritize bridging the gap between students and SAC
+              Authorities.
             </p>
             <p className="text-lg text-gray-300 ">
-            - Ensure accurate information dissemination on club activities, festivals, and important notices.
+              - Ensure accurate information dissemination on club activities,
+              festivals, and important notices.
             </p>
             {/* <p className="text-lg text-gray-300 ">
               - Taking feedback and Conducting surveys for new suggestions will

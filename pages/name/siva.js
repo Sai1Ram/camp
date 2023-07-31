@@ -54,19 +54,24 @@ const Name = () => {
               motivate NITR community.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Goal: Bridge student-SAC gap, enhance communication, and foster transparency with clubs.
+              - Goal: Bridge student-SAC gap, enhance communication, and foster
+              transparency with clubs.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Ensure transparent and detailed allocation of funds for FMS clubs.
+              - Ensure transparent and detailed allocation of funds for FMS
+              clubs.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Efficiently allocate funds across FMS clubs, ensuring optimal utilization.
+              - Efficiently allocate funds across FMS clubs, ensuring optimal
+              utilization.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Actively promote and value feedback: Encourage open feedback channels to gather suggestions.
+              - Actively promote and value feedback: Encourage open feedback
+              channels to gather suggestions.
             </p>
             <p className="text-lg text-gray-300 ">
-              - Regularly conduct surveys to seek community input for continuous improvement.
+              - Regularly conduct surveys to seek community input for continuous
+              improvement.
             </p>
             {/* <p className='text-lg text-gray-300 '>
 
