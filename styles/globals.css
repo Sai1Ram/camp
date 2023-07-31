@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Tuesday";
+    src:  url("/tuesday.woff2") format("woff2");
+    font-display : swap;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* .scroll {
+    -ms-overflow-style: none;
+}
+.scroll::-webkit-scrollbar {
+      display: none;
+  } */
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+/* ::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00FFA9;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00DAFF;
+} */
+
+
+@keyframes ticker-left-sm {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-170rem, 0, 0);
+  }
+}
+
+
+@keyframes ticker-right-sm {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  
+  0% {
+    transform: translate3d(-35.7rem, 0, 0);
+  }
+}
+
+
+@keyframes ticker-left {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  
+  100% {
+    transform: translate3d(-320rem, 0, 0);
+  }
+}
+
+
+@media  (min-width: 0px) {
+    .ticker-left {
+         animation: ticker-left-sm 15s linear infinite;
+    }
+    .ticker-right {
+        animation: ticker-right-sm 1s linear infinite;
+    }
+}
+@media  (min-width: 1024px) {
+    .ticker-left {
+    animation: ticker-left 15s linear infinite;
+    }
+    .ticker-right {
+      animation: ticker-right 2s linear infinite;
+    }
+}
+
+
