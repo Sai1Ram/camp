@@ -8,53 +8,53 @@ const Feedback = () => {
   const [year, setYear] = useState("");
   const [feedback, setFeedback] = useState("")
   const [roll, setRoll] = useState("")
-  const [data, setData] = useState()
-  // const [data, setData] = useState(
-  //   [
-  //     {
-  //       "number": 1,
-  //       "roll": "121CR0637",
-  //       "name": "Brijesh",
-  //       "year": 9439112241,
-  //       "feeback": "Hope this time also Multi-Ethnic Fest will rock."
-  //     },
-  //     {
-  //       "number": 1,
-  //       "roll": "121ME0727",
-  //       "name": "jraj",
-  //       "year": 9040402899,
-  //       "feeback": "quite impressed by the initiative"
-  //     },
-  //     {
-  //       "number": 1,
-  //       "roll": "121CS0198",
-  //       "name": "Animesh Panda",
-  //       "year": 8093818285,
-  //       "feeback": "Excited to attend the COSMO this time"
-  //     },
-  //     {
-  //       "number": 1,
-  //       "roll": "121MN0539",
-  //       "name": "BISWAJEET",
-  //       "year": 7655042927,
-  //       "feeback": "Waiting for Cosmo to happen."
-  //     },
-  //     {
-  //       "number": 1,
-  //       "roll": "421MA5014",
-  //       "name": "Mahesh Prasad",
-  //       "year": 9696969696,
-  //       "feeback": "Looking forward to being a part of COSMO this time! Can't wait for the event!"
-  //     },
-  //     {
-  //       "number": 1,
-  //       "roll": "121EE0351",
-  //       "name": "Siba",
-  //       "year": 6371120764,
-  //       "feeback": "Anticipating another spectacular and mesmerizing Multi-Ethnic Fest this time!"
-  //     }
-  //   ]
-  // );
+  // const [data, setData] = useState()
+  const [data, setData] = useState(
+    [
+      {
+        "number": 1,
+        "roll": "121CR0637",
+        "name": "Brijesh",
+        "year": 9439112241,
+        "feeback": "Hope this time also Multi-Ethnic Fest will rock."
+      },
+      {
+        "number": 1,
+        "roll": "121ME0727",
+        "name": "jraj",
+        "year": 9040402899,
+        "feeback": "quite impressed by the initiative"
+      },
+      {
+        "number": 1,
+        "roll": "121CS0198",
+        "name": "Animesh Panda",
+        "year": 8093818285,
+        "feeback": "Excited to attend the COSMO this time"
+      },
+      {
+        "number": 1,
+        "roll": "121MN0539",
+        "name": "BISWAJEET",
+        "year": 7655042927,
+        "feeback": "Waiting for Cosmo to happen."
+      },
+      {
+        "number": 1,
+        "roll": "421MA5014",
+        "name": "Mahesh Prasad",
+        "year": 9696969696,
+        "feeback": "Looking forward to being a part of COSMO this time! Can't wait for the event!"
+      },
+      {
+        "number": 1,
+        "roll": "121EE0351",
+        "name": "Siba",
+        "year": 6371120764,
+        "feeback": "Anticipating another spectacular and mesmerizing Multi-Ethnic Fest this time!"
+      }
+    ]
+  );
   const [isLoading, setIsLoading] = useState(false);
 
   // console.log({ data });
@@ -138,9 +138,9 @@ const Feedback = () => {
     }
   }
 
-  useEffect(() => {
-    loadData();
-  }, [])
+  // useEffect(() => {
+  //   loadData();
+  // }, [])
 
 
   const Loader = () => (
