@@ -80,7 +80,7 @@ const Name = () => {
                         </p> */}
           </div>
           <p className="text-2xl mt-10 font-semibold text-red-500">
-            I donot just speak the change, I make the change!
+            I don&apos;t just speak the change, I make the change!
           </p>
           <p className="font-tuesday md:text-7xl  text-5xl  mt-20">
             Prasanjit Agasthi
