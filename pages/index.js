@@ -9,10 +9,9 @@ import Main from '../components/Main'
 
 export default function Home() {
   return (
-
     <div className=''>
       <Head>
-        <title>Films And Music Society- SAC</title>
+        <title>Know Your Candidate</title>
         <meta name="description" content="Campaigning for films and music society for the student activity center , NITR." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
