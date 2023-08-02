@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 const Main = () => {
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(1860)
     const [click, setClick] = useState(false)
     const [isClicked, setIsClicked] = useState(false);
 
