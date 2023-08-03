@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 const Main = () => {
-    const [count, setCount] = useState(1859)
+    const [count, setCount] = useState(0)
     const [click, setClick] = useState(false)
     const [isClicked, setIsClicked] = useState(false);
 
@@ -153,7 +153,7 @@ const Main = () => {
                     You can bring the change....cast your valuable vote and elect the best suited FMS candidate....You can vote for two candidates from each Society from each year. So now it is your responsibility to drive the change!!
                 </p>
                 <div className='mt-6 relative'>
-                    <button onClick={increaseCounter} disabled={isClicked} className={`px-3 py-2 rounded-lg w-64 hover:opacity-80 ${!click ? "bg-[#FF4C29]" : "bg-gray-400"} font-medium text-black`}><span>{!click ? "Support by Liking here 😃" : "Thanks for Liking 😊"}</span>  <span> {click && "|"} {click && (count)}</span>
+                    <button onClick={increaseCounter} disabled={isClicked} className={`px-3 py-2 rounded-lg w-64 hover:opacity-80 ${!click ? "bg-[#FF4C29]" : "bg-gray-400"} font-medium text-black`}><span>{!click ? "Support by Liking here 😃" : "Thanks for Liking 😊"}</span>  <span> {click && "|"} {click && (count === 0 ? "" : count)}</span>
                     {/* onClick={increase} */}
                     </button>
                 </div>
